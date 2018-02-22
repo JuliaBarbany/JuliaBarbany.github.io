@@ -8,19 +8,19 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = " hola irene";
+                text_area.textContent = "mug figure";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "que tal david?";
+                text_area.textContent = "lidl discount";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "que no me de verguenza comer spagetti delante de ti, es algo importante";
+                text_area.textContent = "shit made of plastic";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "ravaleando ";
+                text_area.textContent = "false blood ";
         }
         
          //text_area.textContent = compassHeading;
