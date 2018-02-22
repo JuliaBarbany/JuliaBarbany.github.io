@@ -8,7 +8,7 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = " a mug figure";
+                text_area.textContent = " mug figure";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
